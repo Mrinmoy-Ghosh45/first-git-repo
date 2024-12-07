@@ -1,0 +1,285 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif !important;
+}
+.logo-link{
+    color:#000;
+}
+
+.kpsh3 {
+    position: absolute;
+    left: 17rem;
+    top: 3rem;
+    font-size: 21px;
+
+}
+
+.approvedBy {
+    position: absolute;
+    left: 17rem;
+    top: 10%;
+    font-size: 12px;
+
+
+}
+
+.phoneLogo {
+    background-color: #3b5998;
+    width: 8%;
+
+}
+
+.phoneLogoNumber {
+    color: #3b5998;
+}
+
+.mailLogo {
+    background-color: #3b5998;
+    width: 8%;
+
+}
+
+.maiLogoEmail {
+    color: #3b5998;
+}
+
+/* Style for the button */
+.admission-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    animation: blink 5s infinite;
+}
+
+/* Blinking animation for the text */
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Optional: Hover effect to change button color */
+.admission-btn:hover {
+    background-color: darkred;
+}
+
+.facebook-icon{
+    position:fixed;
+    right:0rem;
+    top:20rem;
+    background-color:#3b5998;
+    
+}
+.facebook-icon i{
+    font-size:1.5rem;
+    color:#fff;
+    padding:15px 20px;
+
+}
+.twitter-icon{
+    position:fixed;
+    right:0rem;
+    top:374px;
+    background-color:#20b4fc;
+    
+}
+.twitter-icon i{
+    font-size:1.5rem;
+    color:#fff;
+    padding:15px 15px;
+}
+.linkedin-icon{
+    position:fixed;
+    right:0rem;
+    top:428px;
+    background-color:#007bb5;
+    
+}
+.linkedin-icon i{
+    font-size:1.5rem;
+    color:#fff;
+    padding:15px 17px;
+}
+/* .whatsapp-icon{
+    position:fixed;
+    right:0rem;
+    top:20rem;
+    background-color:#3b5998;
+} */
+.whatsapp-icon i{
+    position:fixed;
+    right:0rem;
+    top:40rem;
+    font-size:3rem;
+    color:#fff;
+     
+}
+
+.navbarColor {
+    background-color: #3b5998;
+
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.dropdown-menu {
+    background-color: #3b5998 !important;
+}
+
+.dropdown-menu li a {
+    color: #fff;
+}
+
+.dropdown-menu li a:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.bgcolor {
+    background-color: #3b5998;
+}
+
+.kps-hooghly {
+    color: #3b5998;
+}
+
+.kps-paragraph {
+    text-align: justify;
+}
+
+.btn-paragraph {
+    background-color: #3b5998 !important;
+    width: 10rem;
+    color: #fff !important;
+    font-weight: 700 !important;
+}
+
+.custom-form {
+    width: 22rem;
+}
+
+.custom-form h4 {
+    color: #3b5998
+}
+
+/* .custom-input{
+    max-width:400px;
+     
+ } */
+.form-control {
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.075);
+    margin-bottom: -10px;
+    border-radius: 0px !important;
+}
+
+.custom-btn {
+    background-color: #3b5998 !important;
+    width: 100%;
+    color: #fff !important;
+    font-weight: 700 !important;
+    padding: 13px 0px !important;
+    border-radius: 0px !important;
+}
+
+.custom-select {
+    width: 100%;
+    padding: .375rem .75rem;
+    border-radius: 0px !important;
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.075);
+}
+
+/* black border on focus */
+/* input, select:focus{
+    border:2px solod black !important;
+  } */
+.custom-course-kps {
+    background-color: #3b5998;
+    border-radius: 10px;
+    position: relative;
+    height: 15rem;
+    cursor: pointer;
+}
+
+.custom-rounded-icon {
+    background-image: linear-gradient(#20b4fc, #1961eb);
+    color: white;
+    width: 65px;
+    border: 3px solid white;
+}
+
+.custom-rounded-icon i {
+    font-size: 30px;
+    padding: 15px 17px 15px;
+
+}
+
+.custom-course {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.custom-paragraph {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.btn-department {
+    font-size: 15px !important;
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+
+
+}
+
+.kps-icon {
+    background-color: #3b5998;
+    height: 26rem;
+}
+
+.register-btn {
+    background-color: #2e3192 !important;
+    border-radius: 0px !important;
+    padding: 375rem 2.25rem .375rem .75rem;
+
+}
+.inputbox{
+    display: inline-block;
+    margin-right:0.5rem;
+}
+
+.inputbox select {
+    width: 16rem;
+
+}
+.inputbox input{
+    padding:.375rem .75rem;
+    width:16rem;
+}
